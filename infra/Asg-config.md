@@ -7,9 +7,9 @@ Defines immutable infrastructure blueprint.
 Configuration:
 
 - AMI: Ubuntu 22.04
-- Instance Type: t2.micro
+- Instance Type: t3.micro
 - Security Group: App-Server-SG
-- No public IP
+- Instances are not directly exposed to the internet.All external traffic enters through the Application Load Balancer.
 - User-data script installs Docker and runs container
 
 A new Launch Template version is created per deployment.
@@ -24,8 +24,6 @@ Multi-AZ: Enabled (2 subnets)
 
 Health Check Type:
 - ELB (ALB-based health evaluation)
-
----
 
 ## Instance Refresh Strategy
 
