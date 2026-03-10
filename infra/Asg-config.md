@@ -13,6 +13,7 @@ Configuration:
 - User-data script installs Docker and runs container
 
 A new Launch Template version is created per deployment.
+
 ---
 ## Auto Scaling Group Configuration
 
