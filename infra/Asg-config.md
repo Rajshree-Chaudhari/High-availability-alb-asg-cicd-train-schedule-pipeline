@@ -13,7 +13,7 @@ Configuration:
 - User-data script installs Docker and runs container
 
 A new Launch Template version is created per deployment.
-
+---
 ## Auto Scaling Group Configuration
 
 Desired Capacity: 2  
@@ -26,7 +26,6 @@ Health Check Type:
 - ELB (ALB-based health evaluation)
 
 ---
-
 ## Instance Refresh Strategy
 
 Triggered via Jenkins during Deployment.
