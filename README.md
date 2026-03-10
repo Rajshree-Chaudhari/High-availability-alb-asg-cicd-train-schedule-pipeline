@@ -59,7 +59,7 @@ Deployment is fully automated. No manual SSH or container restarts are required.
 
 ---
 
-## 🐳 Application Stack
+## 🐳 Application Runtime
 
 - Node.js application
 - Docker containerized
@@ -87,7 +87,7 @@ This ensures:
 
 ---
 
-## 🏗 Infrastructure Design
+## 🏗 Infrastructure Architecture
 
 - Internet-facing Application Load Balancer
 - Target Group with HTTP health checks
