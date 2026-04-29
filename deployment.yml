@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: trainapp-deployment
+    labels:
+      app: trainapp
+
+spec:
+   replicas: 2
+
+   selector:
+     matchLabels:
+       app: trainapp
+
+   template:
+     metadata:
+       labels:
+         app: trainapp
+
+     spec:
+       containers:
+       - name: trainapp
+         image: rajshreec/train-app:v12
+         ports:
+         - containerPort: 8080
+
