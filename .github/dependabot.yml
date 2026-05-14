@@ -12,7 +12,7 @@ updates:
       day: "monday"
       time: "11:00"
       timezone: "Asia/Kolkata"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 6
 
     groups:
       # 1 PR for all patch updates (e.g. 1.2.3 → 1.2.4)
