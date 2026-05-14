@@ -9,8 +9,8 @@ updates:
     target-branch: "main"       # always open PRs against main
     schedule:
       interval: "daily"
-      day: "thursday"
-      time: "14:00"
+      day: "monday"
+      time: "11:00"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 5
 
